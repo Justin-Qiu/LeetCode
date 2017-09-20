@@ -4,7 +4,7 @@ class Solution {
         Arrays.sort(nums);
         for(i = 0; i < nums.length - 1; i++)
         {
-            if((nums[i] ^ nums[i+1]) == 0) 
+            if((nums[i] ^ nums[i + 1]) == 0) 
                 return true;
         }
         return false;
